@@ -1,3 +1,10 @@
+Scatter Chart :
+![image](https://user-images.githubusercontent.com/72907039/230010157-d9ef5a88-08f0-4deb-ac5f-cfed56deed2c.png)
+
+Bar Chart:
+![image](https://user-images.githubusercontent.com/72907039/230010301-9393a173-296a-41f4-a3dc-cd6383cf185b.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
