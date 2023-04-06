@@ -45,7 +45,7 @@ const ScatterPlot = () => {
     },
     series: [{
       type: 'scatter',
-      data: ScatterXAxis.map((x:any, i:any) => [x, ScatterYAxis[i]]),
+      data: ScatterXAxis.map((x:number, i:number) => [x, ScatterYAxis[i]]),
     }]
   };
 
