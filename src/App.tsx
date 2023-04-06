@@ -7,10 +7,10 @@ import 'echarts/lib/chart/scatter';
 import 'echarts/lib/component/tooltip';
 import 'echarts/lib/component/grid';
 
-const BarX:any = []
-const BarYAxis:any = []
-const ScatterXAxis:any = []
-const ScatterYAxis:any = []
+const BarX: number[] = []
+const BarYAxis: number[] = []
+const ScatterXAxis:number[] = []
+const ScatterYAxis:number[] = []
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 for (const element of Object.keys(Data)) {
   Data.map((e:any)=>{
@@ -20,7 +20,7 @@ for (const element of Object.keys(Data)) {
     ScatterYAxis.push(e["Hue"])
   })
 } 
-const BarXAxis = BarX.filter((element:any, index:Number) => {
+const BarXAxis = BarX.filter((element:number, index:Number) => {
   return BarX.indexOf(element) === index;
 });
 
